@@ -5,13 +5,10 @@ const {id, title, description, price, image} = course;
 
   return (
     <div className='course'>
-        <div>
-            <img src={image} width={300} />
-            <h4>{title} </h4>
-            <p>{description} </p>
-            <h3>{price} </h3>
-
-        </div>
+            <h4 className='course-title'>{title} </h4>
+            <img src={image} width={300} height={400} />
+            <p className='course-description'>{description} </p>
+            <h3 className='cource-price'>{price} $ </h3>
 
     </div>
   )

@@ -6,7 +6,7 @@ import Studio from './assets/studio.jpeg';
 export const courses = [
     {
         id : 5592,
-        title : "İllustration Workshop",
+        title : "Illustration Workshop",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quis nihil temporibus excepturi optio nisi asperiores, voluptatibus ex. Et, iusto.",
         price: 200,
         image: Studio
